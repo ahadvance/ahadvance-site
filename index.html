@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AH Advance Geotechnical Consultancy</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">
+        <img src="logo.png" alt="AH Advance logo" class="site-logo" />
+        <span>AH Advance</span>
+      </a>
+      <nav class="site-nav" id="siteNav">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-copy">
+        <h1>Expert geotechnical consultancy for safe, successful projects.</h1>
+        <p>AH Advance delivers ground engineering insight, risk mitigation, and site-specific solutions for offshore design and construction.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Request a Site Review</a>
+          <a href="#services" class="btn btn-secondary">Explore Our Expertise</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services-section">
+      <div class="container">
+        <p class="eyebrow">Our Services</p>
+        <h2>Geotechnical consultancy services for the offshore energy sector</h2>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Marine Site Investigations</h3>
+            <p>Site investigation strategy, scope definition, foundation design requirements, geotechnical laboratory testing</p>
+          </article>
+          <article class="service-card">
+            <h3>Project Management / Project Engineering</h3>
+            <p>Review of project documentation, expert advice on soil interpretation, recommendations for foundation design</p>
+          </article>
+          <article class="service-card">
+            <h3>Foundation Installation Risk Assessment</h3>
+            <p>Consideration of potential risks and challenges associated with foundation installation in marine environments</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container split-grid">
+        <div>
+          <p class="eyebrow">About Us</p>
+          <h2>Geotechnical expertise you can rely on.</h2>
+          <p>AH Advance combines site investigations, ground modelling, and practical site advice to help developers, contractors, and asset owners reduce ground risk and keep projects moving.</p>
+          <ul class="about-list">
+            <li>Site-specific geophysical and geotechnical survey advice</li>
+            <li>early to late phase of project development</li>
+            <li>ground engineering in the marine environment</li>
+          </ul>
+        </div>
+        <div class="about-highlight">
+          <p>From early assessment through to fabrication and installation, we deliver the ground intelligence needed for safer, more efficient construction.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section testimonials-section">
+      <div class="container">
+        <p class="eyebrow">Testimonials</p>
+        <h2>What our clients say.</h2>
+        <div class="testimonial-grid">
+          <blockquote class="testimonial-card">
+            <p>"Testomonial 1 to be added shortly!"</p>
+            <footer>— ------ </footer>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <p>"Testomonial 2 to be added shortly!"</p>
+            <footer>— ------ </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Geotechnical advice tailored for your projects</h2>
+          <p>Contact AH Advance for practical advice on site investigation, foundation design, and ground risk mitigation.</p>
+        </div>
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/mpqgbeer" method="POST">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell us about your needs" required></textarea>
+          </label>
+          <input type="hidden" name="_subject" value="Website contact request" />
+          <p class="form-success" id="formSuccess" role="status" aria-live="polite">Thanks! Your message has been sent.</p>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 AH Advance. Professional business services for ambitious teams.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="form-success.js"></script>
+</body>
+</html>
