@@ -1,0 +1,33 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#93c5fd" />
+    </linearGradient>
+    <linearGradient id="sea" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)" />
+  <path d="M0 500 C200 530 400 520 600 500 C800 480 1000 520 1200 500 C1400 480 1600 520 1600 520 V900 H0 Z" fill="url(#sea)" />
+  <path d="M0 540 C150 560 320 550 500 540 C650 530 820 550 980 540 C1140 530 1280 550 1440 540 C1560 535 1600 540 1600 540 V900 H0 Z" fill="#1e3a8a" opacity="0.25" />
+  <path d="M0 600 C200 620 400 610 600 600 C900 590 1100 610 1400 600 C1560 595 1600 600 1600 600 V900 H0 Z" fill="#1e40af" opacity="0.3" />
+  <g fill="#ffffff" opacity="0.75">
+    <path d="M390 420 L390 760 L410 760 L410 420 Z" />
+    <path d="M350 460 L390 430 L430 460 L390 470 Z" />
+    <path d="M350 520 L390 490 L430 520 L390 530 Z" />
+    <path d="M390 440 L390 445 L415 445 L415 440 Z" opacity="0.5" />
+    <path d="M810 380 L810 760 L830 760 L830 380 Z" />
+    <path d="M770 420 L810 390 L850 420 L810 430 Z" />
+    <path d="M770 500 L810 470 L850 500 L810 510 Z" />
+    <path d="M810 400 L810 405 L835 405 L835 400 Z" opacity="0.5" />
+    <path d="M1230 380 L1230 760 L1250 760 L1250 380 Z" />
+    <path d="M1190 420 L1230 390 L1270 420 L1230 430 Z" />
+    <path d="M1190 500 L1230 470 L1270 500 L1230 510 Z" />
+    <path d="M1230 400 L1230 405 L1255 405 L1255 400 Z" opacity="0.5" />
+  </g>
+  <path d="M380 760 L420 760 L420 770 L380 770 Z" fill="#ffffff" opacity="0.7" />
+  <path d="M800 760 L840 760 L840 770 L800 770 Z" fill="#ffffff" opacity="0.7" />
+  <path d="M1220 760 L1260 760 L1260 770 L1220 770 Z" fill="#ffffff" opacity="0.7" />
+</svg>
